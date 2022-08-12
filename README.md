@@ -4,13 +4,14 @@ The purpose of this project is to analyze stock data using Microsoft Excel Visua
 
 ## Results: 
 
-Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+Overall 2017 out performed 2018 in returns for the twelve stock analyzed in the code. For example, SEDG showed a 185% return in 2017 versus 7.8% loss in 2018. 
+In addition, the time saved on refactoring the code versus performing each line of code for all twelve stocks was tremendous! Both years took less than one second to execute. This would be outstanding time savings when analyzing thousands of stock! ![image](stock.png)![image](timer.png)![image](loop.png)
+
 
 
 ## Summary: In a summary statement, address the following questions.
 
 In summary the advantage to refactoring includes simplifying code to iterate through large data and perform calculations in a short amount of time. However, the disadvantage is that the code takes longer to develop and has more room for error when compared to doing each step at a time. For example, the syntax is sensitive and could become frustrating when troubleshooting. 
 
-The pros to refactoring the code were the efficiency of taking code and configuring it to run through each of the stock. In addition, 
-- What are the advantages or disadvantages of refactoring code?
-- How do these pros and cons apply to refactoring the original VBA script?
+The pros to refactoring the code were the efficiency of taking code and configuring it to run through each of the stock. A con for refactoring the code is performing diagnostics on errors, specifically for the embedded for loops.
+
